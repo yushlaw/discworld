@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE muclient>
+<!-- Saved on Thursday, July 13, 2023, 11:47 PM -->
+<!-- MuClient version 5.06 -->
+<!-- Written by Nick Gammon -->
+<!-- Home Page: http://www.mushclient.com/ -->
+<muclient>
+
+<!-- triggers -->
+
+<triggers
+   muclient_version="5.06"
+   world_file_version="15"
+   date_saved="2023-07-13 23:47:52"
+  >
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="dragon"
+   match="(Aggy|pale green)"
+   regexp="y"
+   sequence="100"
+   other_text_colour="palegreen"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="dragon"
+   match="(Bitey|sky blue)"
+   regexp="y"
+   sequence="100"
+   other_text_colour="skyblue"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="dragon"
+   match="(Idiot|bright red)"
+   regexp="y"
+   sequence="100"
+   other_text_colour="red"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="dragon"
+   match="(Nugget|dark purple)"
+   regexp="y"
+   sequence="100"
+   other_text_colour="purple"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="carpentry_items"
+   match="(coils? of )?rope"
+   regexp="y"
+   sequence="100"
+   other_text_colour="#FF006E"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="carpentry_items"
+   match="(iron )?nails?"
+   regexp="y"
+   sequence="100"
+   other_text_colour="#FF006E"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="wrangling_items_food"
+   match="(juicy|large) lemons?"
+   regexp="y"
+   sequence="100"
+   other_text_colour="#D16A2B"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="wrangling_items_food"
+   match="(medium sized )?lumps? of coal"
+   regexp="y"
+   sequence="100"
+   other_text_colour="#D16A2B"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="wrangling_items_food"
+   match="(tins? of )?shoe polish"
+   regexp="y"
+   sequence="100"
+   other_text_colour="#D16A2B"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="carpentry_items"
+   match="(wooden )?boards?"
+   regexp="y"
+   sequence="100"
+   other_text_colour="#FF006E"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="boiler"
+   match="According to the dials on the side, it seems to be * and barely boiling."
+   sequence="100"
+   other_text_colour="#AA0055"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="boiler"
+   match="According to the dials on the side, it seems to be * and boiling."
+   sequence="100"
+   other_text_colour="red"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="boiler"
+   match="According to the dials on the side, it seems to be * and cold."
+   sequence="100"
+   other_text_colour="blue"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="boiler"
+   match="According to the dials on the side, it seems to be * and hot."
+   sequence="100"
+   other_text_colour="#5500AA"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="boiler"
+   match="According to the dials on the side, it seems to be * and nearly boiling."
+   sequence="100"
+   other_text_colour="#D5002B"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="boiler"
+   match="According to the dials on the side, it seems to be * and very hot."
+   sequence="100"
+   other_text_colour="purple"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="boiler"
+   match="According to the dials on the side, it seems to be * and warm."
+   sequence="100"
+   other_text_colour="#2B00D5"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="dragon_stats"
+   match="a little (bored|hungry|sleepy) \(([4-5]?\d)\/100\)"
+   regexp="y"
+   sequence="100"
+   other_text_colour="#B6C700"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="rope"
+   match="a little frayed"
+   sequence="100"
+   other_text_colour="#FF7D7D"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="fight_items"
+   match="arbalest bolts?"
+   regexp="y"
+   sequence="100"
+   other_text_colour="#00BEFF"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="fight_items"
+   match="arbalests?"
+   regexp="y"
+   sequence="100"
+   other_text_colour="#00BEFF"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="carpentry_items"
+   match="carpenter's hammers?"
+   regexp="y"
+   sequence="100"
+   other_text_colour="#FF006E"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="wrangling_items_misc"
+   match="control rods?"
+   regexp="y"
+   sequence="100"
+   other_text_colour="#D16A2B"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="ice"
+   match="few patches of sea ice"
+   sequence="100"
+   other_text_colour="#00D1FF"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="seaweed"
+   match="few strands of glowing dire seaweed"
+   sequence="100"
+   other_text_colour="#3BCB4C"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="fight_items"
+   match="fire axes?"
+   regexp="y"
+   sequence="100"
+   other_text_colour="#00BEFF"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="dragon_stats"
+   match="not at all (bored|hungry|sleepy) \(([1-3]?\d)\/100\)"
+   regexp="y"
+   sequence="100"
+   other_text_colour="lime"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="wrangling_items_toy"
+   match="rubber toy balls?"
+   regexp="y"
+   sequence="100"
+   other_text_colour="#D16A2B"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="dragon_stats"
+   match="somewhat (bored|hungry|sleepy) \(([6-7]?\d)\/100\)"
+   regexp="y"
+   sequence="100"
+   other_text_colour="#EE8200"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="rope"
+   match="somewhat frayed"
+   sequence="100"
+   other_text_colour="#FF514A"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="wrangling_items_toy"
+   match="squeaky toy animals?"
+   regexp="y"
+   sequence="100"
+   other_text_colour="#D16A2B"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="fight_items"
+   match="steel(-tipped)? harpoons?"
+   regexp="y"
+   sequence="100"
+   other_text_colour="#00BEFF"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="seaweed"
+   match="thick mass of glowing dire seaweed"
+   sequence="100"
+   other_text_colour="#009933"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="ice"
+   match="thick mass of sea ice"
+   sequence="100"
+   other_text_colour="#3399FF"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="seaweed"
+   match="thin covering of glowing dire seaweed"
+   sequence="100"
+   other_text_colour="#66FF66"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="ice"
+   match="thin layer of sea ice"
+   sequence="100"
+   other_text_colour="cyan"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="dragon_stats"
+   match="very (bored|hungry|sleepy) \((([8-9]|10)?\d)\/100\)"
+   regexp="y"
+   sequence="100"
+   other_text_colour="red"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="rope"
+   match="very frayed"
+   sequence="100"
+   other_text_colour="red"
+  >
+  </trigger>
+  <trigger
+   custom_colour="17"
+   enabled="y"
+   group="wrangling_items_misc"
+   match="water tanks?"
+   regexp="y"
+   sequence="100"
+   other_text_colour="#D16A2B"
+  >
+  </trigger>
+</triggers>
+</muclient>

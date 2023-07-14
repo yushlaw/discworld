@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE muclient>
+<!-- Saved on Thursday, July 13, 2023, 11:47 PM -->
+<!-- MuClient version 5.06 -->
+<!-- Written by Nick Gammon -->
+<!-- Home Page: http://www.mushclient.com/ -->
+<muclient>
+
+<!-- aliases -->
+
+<aliases
+   muclient_version="5.06"
+   world_file_version="15"
+   date_saved="2023-07-13 23:47:28"
+  >
+  <alias
+   match="adrag"
+   enabled="y"
+   group="Unsinkable wrangler"
+   sequence="100"
+  >
+  <send>take animal from backpack
+squeeze animal</send>
+  </alias>
+  <alias
+   match="amon"
+   enabled="y"
+   group="Unsinkable monster"
+   sequence="100"
+  >
+  <send>take axe
+hold axe
+throw axe at monster
+drop every axe</send>
+  </alias>
+  <alias
+   match="bdrag"
+   enabled="y"
+   group="Unsinkable wrangler"
+   sequence="100"
+  >
+  <send>take ball from backpack
+throw ball</send>
+  </alias>
+  <alias
+   match="bmon"
+   enabled="y"
+   group="Unsinkable monster"
+   sequence="100"
+  >
+  <send>take bolt
+load arbalest with bolt
+fire arbalest at monster
+drop every bolt</send>
+  </alias>
+  <alias
+   match="boatdir"
+   enabled="y"
+   group="Unsinkable general"
+   sequence="100"
+  >
+  <send>boatdirectionson</send>
+  </alias>
+  <alias
+   match="boatdirectionsoff"
+   enabled="y"
+   group="Unsinkable general"
+   sequence="100"
+  >
+  <send>unalias ne
+unalias se
+unalias sw
+unalias nw
+unalias south
+unalias east
+unalias north
+unalias west
+alias boatdir boatdirectionson</send>
+  </alias>
+  <alias
+   match="boatdirectionson"
+   enabled="y"
+   group="Unsinkable general"
+   sequence="100"
+  >
+  <send>alias ne starboard fore
+alias se starboard aft
+alias sw port aft
+alias nw port fore
+alias south aft
+alias east starboard
+alias north fore
+alias west port
+alias boatdir boatdirectionsoff</send>
+  </alias>
+  <alias
+   match="cdrag"
+   enabled="y"
+   group="Unsinkable wrangler"
+   sequence="100"
+  >
+  <send>get $1$
+aft
+put $1$ in circle</send>
+  </alias>
+  <alias
+   match="ddrag"
+   enabled="y"
+   group="Unsinkable wrangler"
+   sequence="100"
+  >
+  <send>get $1$
+fore
+drop $1$</send>
+  </alias>
+  <alias
+   match="ebath"
+   enabled="y"
+   group="Unsinkable general"
+   sequence="100"
+  >
+  <send>empty battered tin footbath</send>
+  </alias>
+  <alias
+   match="fbath"
+   enabled="y"
+   group="Unsinkable general"
+   sequence="100"
+  >
+  <send>fill battered tin footbath
+pour battered tin footbath on fire</send>
+  </alias>
+  <alias
+   match="fdrag"
+   enabled="y"
+   group="Unsinkable wrangler"
+   sequence="100"
+  >
+  <send>take $2$ from backpack
+feed $2$ to $1$</send>
+  </alias>
+  <alias
+   match="ftank"
+   enabled="y"
+   group="Unsinkable wrangler"
+   sequence="100"
+  >
+  <send>fill mk i boiling engine from water tank
+bury every empty water tank</send>
+  </alias>
+  <alias
+   match="hdrag"
+   enabled="y"
+   group="Unsinkable wrangler"
+   sequence="100"
+  >
+  <send>hit $1$ with control rod</send>
+  </alias>
+  <alias
+   match="hmon"
+   enabled="y"
+   group="Unsinkable monster"
+   sequence="100"
+  >
+  <send>take harpoon
+hold harpoon
+throw harpoon at monster
+drop every harpoon</send>
+  </alias>
+  <alias
+   match="ldrag"
+   enabled="y"
+   group="Unsinkable wrangler"
+   sequence="100"
+  >
+  <send>look every dragon
+look boiler</send>
+  </alias>
+  <alias
+   match="rcrate"
+   enabled="y"
+   group="Unsinkable deckhand"
+   sequence="100"
+  >
+  <send>repair damaged crate with boards and nails</send>
+  </alias>
+  <alias
+   match="rdoor"
+   enabled="y"
+   group="Unsinkable deckhand"
+   sequence="100"
+  >
+  <send>repair damaged door with boards and nails</send>
+  </alias>
+  <alias
+   match="rhull"
+   enabled="y"
+   group="Unsinkable deckhand"
+   sequence="100"
+  >
+  <send>overboard
+repair damaged hull with boards and nails
+board
+look rope</send>
+  </alias>
+  <alias
+   match="rice"
+   enabled="y"
+   group="Unsinkable deckhand"
+   sequence="100"
+  >
+  <send>overboard
+break ice with every weapon
+break ice with every weapon
+break ice with every weapon
+break ice with every weapon
+break ice with every weapon
+board
+look rope</send>
+  </alias>
+  <alias
+   match="rwall"
+   enabled="y"
+   group="Unsinkable deckhand"
+   sequence="100"
+  >
+  <send>repair damaged wall with boards and nails</send>
+  </alias>
+  <alias
+   match="rweed"
+   enabled="y"
+   group="Unsinkable deckhand"
+   sequence="100"
+  >
+  <send>overboard
+cut seaweed with every weapon
+cut seaweed with every weapon
+cut seaweed with every weapon
+cut seaweh with every weapon
+cut seaweed with every weapon
+board
+look rope</send>
+  </alias>
+  <alias
+   match="tcrate"
+   enabled="y"
+   group="Unsinkable deckhand"
+   sequence="100"
+  >
+  <send>tie $ifarg: crate $*$ $else$ crates $endif$ down with rope</send>
+  </alias>
+  <alias
+   match="trail"
+   enabled="y"
+   group="Unsinkable deckhand"
+   sequence="100"
+  >
+  <send>tie $*$ to railing with rope</send>
+  </alias>
+</aliases>
+</muclient>
